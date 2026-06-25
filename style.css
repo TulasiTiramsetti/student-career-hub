@@ -25,7 +25,19 @@ nav a{
     padding:15px 20px;
     font-size:18px;
 }
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    display:block;
+    margin:auto;
+    border:5px solid #1565c0;
+    object-fit:cover;
+}
 
+h1,h2,p{
+    text-align:center;
+}
 nav a:hover{
     background:#1565c0;
 }
