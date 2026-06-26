@@ -6,10 +6,12 @@ body{
 }
 
 nav{
-    width:220px;
-    background:#0d47a1;
+    width:240px;
     height:100vh;
     position:fixed;
+    left:0;
+    top:0;
+    background:#0d47a1;
     padding-top:20px;
 }
 
@@ -43,9 +45,9 @@ nav a:hover{
 }
 
 .main{
-    margin-left:240px;
-    padding:30px;
-    width:100%;
+    margin-left:260px;
+    padding:40px;
+    width:calc(100% - 260px);
 }
 
 section{
